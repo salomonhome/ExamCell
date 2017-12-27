@@ -1,0 +1,28 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+/* Column widths are based on these cells */
+th {
+    width: 20%;
+}
+ td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ th {
+    background: darkblue;
+    color: white;
+}
+ td,th {
+    text-align: left;
+    padding: 5px 10px;
+}
+ tr:nth-child(even) {
+    background: lightblue;
+}
+tr:nth-child(odd) {
+    background: #CCCCFF;
+}
